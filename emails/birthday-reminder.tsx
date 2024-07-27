@@ -31,14 +31,14 @@ export const BirthdayReminderEmail = () => (
             alt="cake"
           />
           <Hr style={hr} />
-          <Text style={paragraph}>Manzis' Birthday is in X days.</Text>
+          <Text style={paragraph}>Manzi's Birthday is in X days.</Text>
           <Text style={paragraph}>
             Here are some gift ideas they might be interested in:
           </Text>
           <Button style={button} href="#">
             Gift Ideas
           </Button>
-          <Hr style={hr} />
+          {/* <Hr style={hr} />
           <Text style={paragraph}>
             If you haven't finished your integration, you might find our{" "}
             <Link style={anchor} href="https://stripe.com/docs">
@@ -85,7 +85,7 @@ export const BirthdayReminderEmail = () => (
           <Hr style={hr} />
           <Text style={footer}>
             Stripe, 354 Oyster Point Blvd, South San Francisco, CA 94080
-          </Text>
+          </Text> */}
         </Section>
       </Container>
     </Body>
